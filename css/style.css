@@ -10,7 +10,7 @@ ul, ol, li {
   list-style: none;
 }
 a {
-  color: #191919;
+  color: #fff;
   text-decoration: none;
 }
 img {
@@ -23,11 +23,11 @@ html {
 ::-webkit-scrollbar {
   width: 8px;
   height: 12px;
-  background-color: rgba(137, 115, 88, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 body {
   font-family: 'Pretendard-Regular', "Noto Sans KR", sans-serif;
@@ -35,13 +35,15 @@ body {
   line-height: 1;
   color: #191919;
   word-break: keep-all;
+  background-color: #000;
 }
 
 /* 공통요소 */
 .wrap {
   position: relative;
   display: block;
-  background: #fff;
+  background-color: #000;
+  color: #fff;
 }
 .inner {
   max-width: 1200px;
@@ -49,4 +51,20 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 }
+section {
+  height: 100vh;
+}
 
+/* header */
+
+
+/* project */
+
+
+/* study */
+
+
+/* contact */
+
+
+/* footer */
